@@ -27,7 +27,7 @@ Construida con **PHP + Laravel + MySQL** y frontend **Inertia + React + Tailwind
 | ----------- | --------------------------------------------------------------------------------------------------------------------- |
 | PHP         | **8.3+** (recomendado 8.4) con extensiones `pdo_mysql`, `mbstring`, `openssl`, `tokenizer`, `ctype`, `json`, `bcmath` |
 | Composer    | 2.x                                                                                                                   |
-| Node.js     | **20+** (recomendado 22)                                                                                              |
+| Node.js     | **20.19+ o 22.18+** (recomendado 22)                                                                                  |
 | npm         | 10+                                                                                                                   |
 | MySQL       | **8.x**                                                                                                               |
 
@@ -49,7 +49,7 @@ GRANT ALL PRIVILEGES ON incidencias.* TO 'incidencias'@'localhost';
 ### 2. Aplicación
 
 ```bash
-git clone <url-del-repo> panel-incidencias
+git clone https://github.com/DiegoAndres06/panel-incidencias.git panel-incidencias
 cd panel-incidencias
 
 composer install
